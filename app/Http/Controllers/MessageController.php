@@ -42,8 +42,8 @@ class MessageController extends Controller
 
     public function update(Request $request, Message $message){
         $data = $request->validate([
-            'text' => 'string',
-            'img' => 'file',
+            'text' => '',
+            'img'  => '',
         ]);
 
         if($data['img'] == 'null'){

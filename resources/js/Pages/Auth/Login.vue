@@ -38,8 +38,8 @@ import { useStore } from "vuex"
 
 let store = useStore()
 
-let email = ref('da@mail.ru')
-let password = ref('da@mail.ru')
+let email = ref('')
+let password = ref('')
 
 function auth(){
     let person = {
